@@ -1,0 +1,58 @@
+{
+  "name": "furniturebackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "capitalize": "^2.0.4",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jest-config": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/compression": "^1.7.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/jest": "^29.5.14",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/morgan": "^1.9.9",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.15.0",
+    "@types/supertest": "^6.0.3",
+    "jest": "^29.7.0",
+    "jest-environment-node": "^29.7.0",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.0",
+    "ts-jest": "^29.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc -p .",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinThantMaung/furniture-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MinThantMaung/furniture-api/issues"
+  },
+  "homepage": "https://github.com/MinThantMaung/furniture-api#readme"
+}
